@@ -6,7 +6,7 @@ add_executable(${PROJECT_NAME}
         src/TestExample.cpp)
 
 target_link_libraries(${PROJECT_NAME}
-        gtests
+        gtest
         gtest_main
         ExampleModule)
 

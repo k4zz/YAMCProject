@@ -1,7 +1,9 @@
 #pragma once
 
-namespace ExampleModule {
+namespace ExampleModule
+{
 
     void printHello();
+    int addition(int a, int b);
 
 }

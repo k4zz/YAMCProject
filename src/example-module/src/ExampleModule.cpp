@@ -2,10 +2,17 @@
 
 #include <iostream>
 
-namespace ExampleModule {
+namespace ExampleModule
+{
 
-    void printHello() {
+    void printHello()
+    {
         std::cout << "Hello World from ExampleModule" << std::endl;
+    }
+
+    int addition(int a, int b)
+    {
+        return a + b;
     }
 
 }
