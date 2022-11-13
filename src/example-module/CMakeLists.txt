@@ -74,7 +74,7 @@ install(EXPORT ${PROJECT_NAME}Targets
 # == EXPORT ==
 
 export(EXPORT ${PROJECT_NAME}Targets
-       FILE ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Targets.cmake
+       FILE ${CMAKE_CURRENT_BINARY_DIR}/cmake/${PROJECT_NAME}Targets.cmake
        NAMESPACE ${CMAKE_PROJECT_NAME}::)
 
 export(PACKAGE ${PROJECT_NAME})
